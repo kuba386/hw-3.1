@@ -166,17 +166,17 @@ class ViewController: UIViewController {
         maltaRightColor.backgroundColor = .red
 
         maltaStick1.translatesAutoresizingMaskIntoConstraints = false
-        maltaStick1.topAnchor.constraint(equalTo: viewMalta.topAnchor, constant: 17).isActive = true
-        maltaStick1.bottomAnchor.constraint(equalTo: viewMalta.bottomAnchor, constant: -120).isActive = true
-        maltaStick1.leftAnchor.constraint(equalTo: viewMalta.leftAnchor, constant: 25).isActive = true
-        maltaStick1.rightAnchor.constraint(equalTo: viewMalta.rightAnchor, constant: -259).isActive = true
+        maltaStick1.topAnchor.constraint(equalTo: maltaLeftColor.topAnchor, constant: 15).isActive = true
+        maltaStick1.bottomAnchor.constraint(equalTo: maltaLeftColor.bottomAnchor, constant: -120).isActive = true
+        maltaStick1.leftAnchor.constraint(equalTo: maltaLeftColor.leftAnchor, constant: 40).isActive = true
+        maltaStick1.rightAnchor.constraint(equalTo: maltaLeftColor.rightAnchor, constant: -80).isActive = true
         maltaStick1.backgroundColor = .lightGray
 
         maltaStick2.translatesAutoresizingMaskIntoConstraints = false
-        maltaStick2.topAnchor.constraint(equalTo: viewMalta.topAnchor, constant: 15).isActive = true
-        maltaStick2.bottomAnchor.constraint(equalTo: viewMalta.bottomAnchor, constant: -120).isActive = true
-        maltaStick2.leftAnchor.constraint(equalTo: viewMalta.leftAnchor, constant: 25).isActive = true
-        maltaStick2.rightAnchor.constraint(equalTo: viewMalta.rightAnchor, constant: -259).isActive = true
+        maltaStick2.topAnchor.constraint(equalTo: maltaLeftColor.topAnchor, constant: 35).isActive = true
+        maltaStick2.bottomAnchor.constraint(equalTo: maltaLeftColor.bottomAnchor, constant: -150).isActive = true
+        maltaStick2.leftAnchor.constraint(equalTo: maltaLeftColor.leftAnchor, constant: 10).isActive = true
+        maltaStick2.rightAnchor.constraint(equalTo: maltaLeftColor.rightAnchor, constant: -43).isActive = true
         maltaStick2.backgroundColor = .lightGray
         
         view.addSubview(nigerLeftColor)
